@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A growth command center for ambitious clothing brands." />
+    <title>THREADLINE — Shopify Growth AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./techpack.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <main class="shell">
+      <section class="brand-setup" id="setup">
+        <div class="setup-mark">TL</div>
+        <p class="eyebrow">YOUR GROWTH OPERATING SYSTEM</p>
+        <h1>Make your clothing brand<br /><em>impossible to ignore.</em></h1>
+        <p class="setup-copy">Start with your name. THREADLINE will turn your store signals into sharp decisions, campaigns, and creative direction.</p>
+        <form id="brand-form" class="brand-form">
+          <label for="brand-name">Clothing brand name</label>
+          <div class="input-row"><input id="brand-name" maxlength="48" placeholder="e.g. Northline Studio" required /><button type="submit">Build my command center <span>↗</span></button></div>
+        </form>
+        <p class="setup-note">You can add Shopify data anytime. Start with the interactive demo now.</p>
+      </section>
+
+      <section class="app hidden" id="app" aria-live="polite">
+        <aside class="sidebar">
+          <div class="logo"><span class="logo-mark">TL</span><span>THREADLINE</span></div>
+          <div class="store-chip"><span class="status-dot"></span><div><strong id="sidebar-brand">Northline Studio</strong><small>Demo store · Sept 1–30</small></div><button class="icon-button" id="edit-brand" aria-label="Edit brand name">✎</button></div>
+          <nav aria-label="Primary navigation">
+            <button class="nav-link active" data-view="overview"><span>⌁</span> Command center</button>
+            <button class="nav-link" data-view="revenue"><span>◒</span> $10k roadmap</button>
+            <button class="nav-link" data-view="marketing"><span>↗</span> Marketing lab</button>
+            <button class="nav-link" data-view="creative"><span>✦</span> Creative studio</button>
+            <button class="nav-link" data-view="techpack"><span>▤</span> Tech pack maker</button>
+          </nav>
+          <div class="sidebar-foot"><span class="sparkle">✦</span><p><strong>Next move:</strong><br />Recover your warm carts today.</p></div>
+        </aside>
+
+        <div class="workspace">
+          <header class="topbar">
+            <div><p class="eyebrow">COMMAND CENTER</p><h2>Hey, <span id="greeting-brand">Northline</span>.</h2></div>
+            <div class="top-actions"><button class="button secondary" id="sync-button">↻ Sync Shopify</button><button class="button primary" id="analyze-button">Run fresh analysis <span>↗</span></button></div>
+          </header>
+
+          <div class="view active" id="overview">
+            <section class="hero-card">
+              <div class="hero-copy"><p class="eyebrow light">GROWTH SIGNAL</p><h3>You have a <em>conversion</em> problem,<br />not a traffic problem.</h3><p>People are finding <span class="brand-text">Northline Studio</span>. The next $1,680 is sitting in the gap between product views and checkout.</p><button class="text-link" data-go="revenue">See the plan <span>→</span></button></div>
+              <div class="signal"><div class="signal-ring"><strong id="health-score">61</strong><span>/ 100</span></div><p>Store health</p><span class="signal-up">↑ 7 pts this week</span></div>
+            </section>
+
+            <section class="metrics-grid">
+              <article class="metric-card"><div class="metric-title"><span>Revenue</span><small>THIS MONTH</small></div><strong id="metric-revenue">$6,420</strong><p class="up">↑ 14.2% <span>vs. last month</span></p><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+              <article class="metric-card"><div class="metric-title"><span>Conversion rate</span><small>NEEDS WORK</small></div><strong id="metric-conversion">1.47%</strong><p class="down">↓ 0.31% <span>vs. goal of 2.2%</span></p><div class="benchmark"><span style="width: 56%"></span><i></i></div></article>
+              <article class="metric-card"><div class="metric-title"><span>Average order</span><small>HEALTHY</small></div><strong id="metric-aov">$68.40</strong><p class="up">↑ 8.1% <span>vs. last month</span></p><div class="orders"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+              <article class="metric-card"><div class="metric-title"><span>Returning customers</span><small>OPPORTUNITY</small></div><strong id="metric-repeat">18%</strong><p class="down">↓ 7% <span>below apparel benchmark</span></p><div class="repeat-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+            </section>
+
+            <section class="split-section">
+              <article class="panel diagnosis"><div class="panel-head"><div><p class="eyebrow">THE DIAGNOSIS</p><h3>What’s working. What’s leaking.</h3></div><button class="more-button">Full report ↗</button></div>
+                <div class="diagnosis-row good"><span class="row-icon">↗</span><div><strong>Your AOV is climbing</strong><p>Bundles and $75 free shipping are doing real work. Protect this.</p></div><span class="tag">KEEP</span></div>
+                <div class="diagnosis-row bad"><span class="row-icon">!</span><div><strong>Cart abandonment is 76%</strong><p>Your checkout has too much friction. This is your fastest revenue win.</p></div><button class="row-action" data-go="marketing">Fix it →</button></div>
+                <div class="diagnosis-row bad"><span class="row-icon">!</span><div><strong>Product pages aren’t selling the story</strong><p>Top products get attention, but visitors are not getting a reason to act now.</p></div><button class="row-action" data-go="creative">Create hooks →</button></div>
+              </article>
+              <article class="panel funnel"><div class="panel-head"><div><p class="eyebrow">YOUR SALES FUNNEL</p><h3>Where your buyers fall off</h3></div><span class="funnel-total">12,840 sessions</span></div>
+                <div class="funnel-row"><span>Store visits</span><div><i style="width:100%"></i></div><strong>12,840</strong></div><div class="funnel-row"><span>Product views</span><div><i style="width:74%"></i></div><strong>9,502</strong></div><div class="funnel-row warn"><span>Add to cart</span><div><i style="width:31%"></i></div><strong>2,964</strong></div><div class="funnel-row danger"><span>Checkout</span><div><i style="width:14%"></i></div><strong>1,366</strong></div><div class="funnel-row sale"><span>Orders</span><div><i style="width:5.4%"></i></div><strong>189</strong></div>
+              </article>
+            </section>
+            <section class="quick-actions"><p class="eyebrow">DO THIS NEXT</p><h3>Three moves for this week</h3><div class="action-grid"><button data-go="marketing"><span class="action-no">01</span><strong>Launch your cart rescue flow</strong><small>Potential: +$610/mo</small><b>→</b></button><button data-go="creative"><span class="action-no">02</span><strong>Turn your hero product into a story</strong><small>Potential: +0.4% CVR</small><b>→</b></button><button data-go="revenue"><span class="action-no">03</span><strong>Set the weekly $10k target</strong><small>Know exactly what to hit</small><b>→</b></button></div></section>
+          </div>
+
+          <div class="view" id="revenue">
+            <section class="page-intro"><p class="eyebrow">THE $10K ROADMAP</p><h2>Your number is not a wish.<br /><em>It’s a weekly system.</em></h2><p>Change the levers below and we’ll calculate the route from today’s performance to a $10,000 month.</p></section>
+            <section class="roadmap-grid"><article class="panel calculator"><div class="panel-head"><div><p class="eyebrow">GROWTH CALCULATOR</p><h3>Pick your realistic levers</h3></div><span class="pill">Live math</span></div><label>Monthly store sessions <input id="sessions-input" type="range" min="5000" max="30000" value="12840" /><output id="sessions-out">12,840</output></label><label>Conversion rate <input id="conversion-input" type="range" min="1" max="5" step="0.1" value="1.5" /><output id="conversion-out">1.5%</output></label><label>Average order value <input id="aov-input" type="range" min="40" max="150" value="68" /><output id="aov-out">$68</output></label><div class="result-strip"><span>Projected monthly revenue</span><strong id="projected-revenue">$13,097</strong></div></article>
+              <article class="panel roadmap-card"><p class="eyebrow">YOUR FOCUSED PATH</p><h3><span id="gap-value">$3,580</span> left to $10k</h3><div class="road-step"><i>1</i><div><strong>Repair checkout</strong><p>Lower abandonment from 76% to 65%</p></div><b>+$580</b></div><div class="road-step"><i>2</i><div><strong>Add 0.3% to conversion</strong><p>Use two high-intent product page hooks</p></div><b>+$1,920</b></div><div class="road-step"><i>3</i><div><strong>Sell one bundle per day</strong><p>Make your AOV target $76</p></div><b>+$1,080</b></div><button class="button primary wide" id="copy-roadmap">Copy my weekly playbook</button></article></section>
+            <section class="panel weekly-plan"><div class="panel-head"><div><p class="eyebrow">NEXT 30 DAYS</p><h3>What to do, in order</h3></div><span class="pill dark">$10K system</span></div><ol><li><b>Week 1</b><span>Set up a 3-message cart rescue sequence and add trust signals to checkout.</span><strong>$1,700 target</strong></li><li><b>Week 2</b><span>Refresh the product page for your traffic leader with urgency, proof, and a bundle.</span><strong>$2,100 target</strong></li><li><b>Week 3</b><span>Run 3 creator-led hooks against your best seller. Scale the winner, not the prettiest ad.</span><strong>$2,800 target</strong></li><li><b>Week 4</b><span>Retarget product viewers and activate the past-customer offer.</span><strong>$3,400 target</strong></li></ol></section>
+          </div>
+
+          <div class="view" id="marketing">
+            <section class="page-intro"><p class="eyebrow">MARKETING LAB</p><h2>Make the next campaign<br /><em>feel inevitable.</em></h2><p>Choose the goal and we’ll generate an apparel-first launch plan with the message, offer, and channel mix ready to use.</p></section>
+            <section class="lab-grid"><article class="panel generator"><p class="eyebrow">CAMPAIGN BUILDER</p><h3>What are we trying to move?</h3><label>Primary goal<select id="goal-select"><option value="convert">Convert product viewers</option><option value="launch">Launch a new drop</option><option value="repeat">Bring customers back</option><option value="grow">Grow qualified traffic</option></select></label><label>Product / collection<input id="product-input" placeholder="e.g. Heavyweight Everyday Tee" value="Core heavyweight tee" /></label><label>Brand energy<div class="choice-row"><button class="choice active" data-tone="premium">Premium</button><button class="choice" data-tone="street">Street</button><button class="choice" data-tone="minimal">Minimal</button></div></label><button class="button primary wide" id="generate-campaign">Generate strategy <span>↗</span></button></article>
+              <article class="panel strategy-output" id="strategy-output"><div class="output-top"><span class="ai-dot">✦ AI PLAYBOOK</span><button class="copy-icon" id="copy-strategy" aria-label="Copy strategy">⧉</button></div><p class="eyebrow" id="strategy-kicker">VIEWER → BUYER</p><h3 id="strategy-title">The “still thinking about it?” campaign</h3><p id="strategy-summary">Make the product feel like a decision they can make today, not another tab they’ll forget.</p><div class="strategy-block"><strong>THE OFFER</strong><p id="strategy-offer">Free shipping + a limited 48-hour “complete the fit” bundle.</p></div><div class="strategy-block"><strong>THE HOOK</strong><p id="strategy-hook">“Your most-worn tee should not be your most basic one.”</p></div><div class="channel-row"><span>EMAIL</span><span>RETARGETING</span><span>TIKTOK</span></div></article></section>
+            <section class="panel experiment"><div><p class="eyebrow">WHAT ACTUALLY WORKS</p><h3>Test the message before you spend.</h3><p>Fashion brands win when the ad names a feeling or identity, then proves the product earns it. “Premium materials” alone rarely does either.</p></div><div class="test-cards"><div><span class="test-label bad-label">WEAK</span><p>“New heavyweight cotton tee. Shop now.”</p></div><div><span class="test-label good-label">STRONGER</span><p>“Built for the days you want to look put together without trying.”</p></div></div></section>
+          </div>
+
+          <div class="view" id="creative">
+            <section class="page-intro creative-intro"><p class="eyebrow">CREATIVE STUDIO</p><h2>Design a world people<br /><em>want to wear.</em></h2><p>Give THREADLINE a product. It will shape a campaign visual direction, content shot list, and launch copy around your brand.</p></section>
+            <section class="studio-layout"><article class="design-stage"><div class="poster" id="poster"><span class="poster-tag" id="poster-tag">NORTHLINE STUDIO / FW’26</span><div class="poster-word" id="poster-word">NORTHLINE</div><div class="poster-copy" id="poster-copy">THE UNIFORM<br />FOR GOING SOMEWHERE.</div><div class="poster-footer">ESSENTIALS, REFINED <span>01—26</span></div></div><button class="poster-button" id="refresh-poster">↻ Create another direction</button></article>
+              <article class="panel creative-controls"><p class="eyebrow">BRAND CREATIVE BRIEF</p><h3>Build a drop concept</h3><label>Featured piece<input id="creative-product" value="Heavyweight everyday tee" /></label><label>Campaign mood<select id="mood-select"><option value="quiet">Quiet confidence</option><option value="afterdark">After dark</option><option value="motion">Motion / city energy</option><option value="archive">Vintage archive</option></select></label><button class="button primary wide" id="generate-creative">Generate creative direction <span>↗</span></button><div class="creative-result" id="creative-result"><strong>“The daily uniform”</strong><p>Clean, tactile, unhurried. Shoot close details of the fabric, then one wide city frame. Let the texture say premium before the copy does.</p><div><span>LOW LIGHT</span><span>GRAIN</span><span>REAL PEOPLE</span></div></div></article></section>
+            <section class="panel shotlist"><div class="panel-head"><div><p class="eyebrow">CONTENT YOU CAN MAKE THIS WEEK</p><h3>Your 5-shot creative recipe</h3></div><button id="copy-shotlist" class="more-button">Copy shot list ↗</button></div><div class="shot-grid"><article><b>01</b><strong>The detail</strong><p>Fingers on fabric. Natural window light. No face needed.</p></article><article><b>02</b><strong>The fit check</strong><p>A real person moving, not posing. Show proportion.</p></article><article><b>03</b><strong>The proof</strong><p>Stack your closest competitor beside yours. Make the difference visible.</p></article><article><b>04</b><strong>The ritual</strong><p>Morning coffee, packed bag, keys. Put the product in a life.</p></article><article><b>05</b><strong>The decision</strong><p>A confident end-frame: color, price, and only one action.</p></article></div></section>
+          </div>
+
+          <div class="view" id="techpack">
+            <section class="page-intro tech-intro"><p class="eyebrow">TECH PACK MAKER</p><h2>Turn a mockup into<br /><em>something a factory can make.</em></h2><p>Build the production brief alongside your creative. It keeps the practical details in one clean handoff for your manufacturer.</p></section>
+            <section class="tech-layout">
+              <article class="panel tech-controls">
+                <div class="panel-head"><div><p class="eyebrow">GARMENT DETAILS</p><h3>Your production brief</h3></div><span class="pill">Draft</span></div>
+                <div class="field-pair"><label>Style name<input id="tech-style" value="Everyday Heavyweight Tee" /></label><label>Style code<input id="tech-code" value="TL-001" /></label></div>
+                <div class="field-pair"><label>Garment type<select id="tech-garment"><option>T-shirt</option><option>Hoodie</option><option>Crewneck</option><option>Jogger</option><option>Cap</option></select></label><label>Fit<select id="tech-fit"><option>Relaxed / oversized</option><option>Standard</option><option>Boxy cropped</option><option>Fitted</option></select></label></div>
+                <label>Fabric<input id="tech-fabric" value="100% cotton · 280 GSM · garment dyed" /></label>
+                <div class="field-pair"><label>Base color<input id="tech-color" value="Washed charcoal" /></label><label>Sizes<input id="tech-sizes" value="S / M / L / XL / XXL" /></label></div>
+                <label>Mockup / art direction<textarea id="tech-art">Small chest wordmark; oversized back type treatment. Tonal ink, no distressing.</textarea></label>
+                <button class="button primary wide" id="generate-techpack">Generate tech pack <span>↗</span></button>
+              </article>
+              <article class="tech-sheet" id="tech-sheet">
+                <div class="sheet-top"><div class="sheet-brand" id="sheet-brand">NORTHLINE STUDIO</div><span>TECH PACK / V1.0</span></div>
+                <div class="sheet-title"><p>STYLE OVERVIEW</p><h3 id="sheet-style">EVERYDAY HEAVYWEIGHT TEE</h3><span id="sheet-code">TL-001</span></div>
+                <div class="garment-visual"><div class="tee"><div class="tee-neck"></div><div class="tee-sleeve left"></div><div class="tee-sleeve right"></div><div class="tee-body"><span id="tee-chest">NORTHLINE</span></div></div><div class="callout c-one"><b>01</b><span>Screen print<br/>left chest</span></div><div class="callout c-two"><b>02</b><span>Oversized back<br/>screen print</span></div><div class="callout c-three"><b>03</b><span>1×1 rib neck<br/>twin-needle stitch</span></div></div>
+                <div class="sheet-specs"><div><span>FABRIC</span><strong id="sheet-fabric">100% COTTON · 280 GSM</strong></div><div><span>COLOR</span><strong id="sheet-color">WASHED CHARCOAL</strong></div><div><span>FIT</span><strong id="sheet-fit">RELAXED / OVERSIZED</strong></div><div><span>SIZES</span><strong id="sheet-sizes">S / M / L / XL / XXL</strong></div></div>
+                <div class="sheet-notes"><p>CONSTRUCTION NOTES</p><span id="sheet-notes">Small chest wordmark; oversized back type treatment. Tonal ink, no distressing.</span></div>
+              </article>
+            </section>
+            <section class="panel specification-panel"><div class="panel-head"><div><p class="eyebrow">MEASUREMENT SPEC</p><h3>Base size: Medium</h3></div><div class="spec-actions"><button class="more-button" id="add-measurement">+ Add measurement</button><button class="button secondary" id="print-techpack">Print / PDF ↗</button><button class="button primary" id="export-techpack">Export handoff</button></div></div>
+              <div class="spec-table-wrap"><table id="spec-table"><thead><tr><th>Point of measure</th><th>How to measure</th><th>S</th><th>M</th><th>L</th><th>XL</th><th>Tolerance</th></tr></thead><tbody><tr><td>Body length</td><td>High point shoulder to hem</td><td>70 cm</td><td>72 cm</td><td>74 cm</td><td>76 cm</td><td>± 1 cm</td></tr><tr><td>Chest width</td><td>1 cm below armhole</td><td>55 cm</td><td>58 cm</td><td>61 cm</td><td>64 cm</td><td>± 1 cm</td></tr><tr><td>Shoulder width</td><td>Seam to seam</td><td>48 cm</td><td>50 cm</td><td>52 cm</td><td>54 cm</td><td>± 0.5 cm</td></tr><tr><td>Sleeve length</td><td>Shoulder seam to edge</td><td>22 cm</td><td>23 cm</td><td>24 cm</td><td>25 cm</td><td>± 0.5 cm</td></tr></tbody></table></div>
+              <p class="factory-note"><b>Factory note:</b> This is a practical first production brief. Confirm measurements, artwork files, print dimensions, trims, and care-label compliance with your sample room before placing a bulk order.</p>
+            </section>
+          </div>
+          <div class="toast" id="toast" role="status">Copied to clipboard</div>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
